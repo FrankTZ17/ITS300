@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Contact</title>
+    <link rel="stylesheet" href="contact.css">
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+      
+        <div class="navbar-section">
+            <nav>
+                <span id="menu">&#9776;</span>
+                <ul>
+                    <li><a id="logo">My Portfolio</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+       
+        <div id="responsive-nav">
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+   
+        <div class="image-section">
+            <img id="img1" src="franco.jpg" alt="Profile Image">
+        </div>
+
+      
+        <div class="text-section">
+            <h1>Contact Me!</h1>
+            <ul>
+                <li><i class="fas fa-envelope"></i> Email:
+                    <a href="mailto:franconarciso82@gmail.com" target="_blank">franconarciso82@gmail.com</a>
+                </li>
+                <li><i class="fab fa-facebook"></i> Facebook:
+                    <a href="https://www.facebook.com/franco.pamulan.50?mibextid=rS40aB7S9Ucbxw6v" target="_blank">
+                        Franco P. Pamulan
+                    </a>
+                </li>
+                <li><i class="fas fa-phone"></i> 0935 203 4157</li>
+            </ul>
+        </div>
+
+      
+        <div class="footer-section">
+            <p>© 2025 My Portfolio by Franco P. Pamulan</p>
+        </div>
+
+    </div>
+
+    <script>
+        const menu = document.getElementById('menu');
+        const nav = document.getElementById('responsive-nav');
+        menu.addEventListener('click', () => {
+            nav.classList.toggle('show');
+        });
+    </script>
+
+</body>
+</html>
